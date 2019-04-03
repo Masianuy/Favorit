@@ -1,0 +1,29 @@
+.contact {
+    margin: 0 auto;
+    background-color: #1F1C15;
+    position: relative;
+    height: 750px;
+}
+
+.contact__title {
+    top: 4%;
+    left: 3%;
+    position: absolute;
+    z-index: 1;
+    color: rgb(24, 24, 24);
+}
+
+.contact__content {
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+}
+
+.contact__map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
